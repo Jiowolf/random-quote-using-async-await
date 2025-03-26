@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(205, 206, 206);
+    display: flex;
+}
+
+#quoteBox{
+    background-color: white;
+    border-radius: 10px;
+    margin: 3% auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: inline-flex;
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 
+                0 8px 20px rgba(0, 0, 0, 0.15), 
+                0 12px 30px rgba(0, 0, 0, 0.1); 
+};
+
+
+#photo{
+    display: flex;
+    justify-content: center;
+     
+}
+
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 10px solid rgba(128, 128, 128,0.1);
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+}
